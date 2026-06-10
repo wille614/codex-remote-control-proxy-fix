@@ -1,0 +1,25 @@
+# Local secrets and machine-specific state
+.env
+*.env
+*.local
+*.local.*
+
+# Logs and diagnostics
+*.log
+logs/
+Logs/
+diagnostics/
+
+# SSH material must never be committed
+.ssh/
+id_*
+*_rsa
+*_ed25519
+known_hosts*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
